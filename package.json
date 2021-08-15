@@ -1,0 +1,31 @@
+{
+  "name": "be-todolist-ulhack",
+  "version": "1.0.0",
+  "description": "BE for todolist ulhack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanthaiduong22/be-todolist-ulhack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phanthaiduong22/be-todolist-ulhack/issues"
+  },
+  "homepage": "https://github.com/phanthaiduong22/be-todolist-ulhack#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.21",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12"
+  }
+}
